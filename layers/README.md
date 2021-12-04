@@ -42,32 +42,32 @@ We can use the AWS Management console to do so.
  
 ## Layer creation
  
-1) In the AWS Lambda page click on the Layers within the Additional resources.
+1) In the AWS Lambda page click on the `Layers` within the `Additional resources`.
  
-2) Here, we can list all existing layers, to create a new one, choose Create Layer
+2) Here, we can list all existing layers, to create a new one, choose `Create Layer`.
  
 3) Add layer name "eg: spacyLayer"
  
 4) Upload the zip file by choosing between Upload a .zip file or a file from S3. Here we choose from S3 since our packages.zip is much bigger.
  
 5) Then paste the link of the S3 object, the link under the object UI. Format:
-*https://<<bucket>>.s3.amazonaws.com/<<object_s3_key>>*
+`https://<<bucket>>.s3.amazonaws.com/<<object_s3_key>>`.
  
 6) Choose the appropriate architecture. Here we can choose x86_64
  
-7) Choose all compatible runtimes. (In my case I used python3.6)
+7) Choose all compatible runtimes. (In my case I have used python3.6)
  
 8) (Optional) you can choose to change default lambda execution role ( For example using an existing role)
  
-9) Click the Create button to create the layer.
+9) Click the `Create` button to create the layer.
  
-10) Once created, go back to the Functions tab and choose a function to add a layer or create a new one.
+10) Once created, go back to the `Functions` tab and choose a function to add a layer or create a new one.
  
 ## Function creation
  
-1) In the AWS Lambda page click to *Functions* then *Create Function*.
+1) In the AWS Lambda page click to `Functions` then `Create Function`.
  
-2) Choose the option Author from scratch
+2) Choose the option `Author from scratch`
  
 3) Add function name eg: "spacyFunction"
  
@@ -77,9 +77,9 @@ We can use the AWS Management console to do so.
  
 6) (Optional) you can choose to change default lambda execution role ( For example using an existing role)
  
-7) (Optional) you can enable code signing or enable network within the menu *Advanced settings*
+7) (Optional) you can enable code signing or enable network within the menu `Advanced settings`
  
-8) Click the button Create function
+8) Click the button `Create function`
  
 9) Once created, we can add layers by clicking the Layers (0) within the Function overview. (Or scroll down to the Layers menu), then click Add a layer.
  
