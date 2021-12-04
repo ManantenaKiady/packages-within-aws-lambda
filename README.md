@@ -6,3 +6,6 @@ AWS Lambda provides us different ways of installing packages within its runtime:
 - Using Lambda Layer to install packages so that our code file is more
 - Compacting our application into a container image. 
 
+Plan:
+
+- Given a tutorial on how each of these works and discussed their pros and cons
