@@ -1,6 +1,6 @@
 ## Welcome
 
-There are two solutions presented here:
+There are two solutions presented in this document here:
 
 - The first one is based on a local build python packages. Please follow the doc as is if you are interested. 
 
