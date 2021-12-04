@@ -8,7 +8,7 @@ There are two solutions presented here:
 
 ## Build the layer file
 
-Please follow the following sricpt or run the build.sh script under the layers folder in the following repository: 
+Please follow the following sricpt or run the `build.sh` script under the `layers` folder in the following repository: https://github.com/ManantenaKiady/packages-within-aws-lambda.git
 
 - Create virtualenv choose any version of python you want
 

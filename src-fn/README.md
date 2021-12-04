@@ -1,6 +1,6 @@
 ## Packages building
  
-Please run the build.sh script under the src-fn folder once you have cloned the following repository.
+Please run the build.sh script under the `src-fn` folder once you have cloned the following repository: https://github.com/ManantenaKiady/packages-within-aws-lambda.git
  
 Once the packages are zipped, it is recommended to upload the file to S3 if it is bigger than 10 Mb. Otherwise, we can directly upload it using the provided URI within the Lambda function creation.
  
