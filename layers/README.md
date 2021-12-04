@@ -10,7 +10,7 @@ There are two solutions presented here:
 
 Please follow the following sricpt or run the `build.sh` script under the `layers` folder in the following repository: https://github.com/ManantenaKiady/packages-within-aws-lambda.git
 
-- Create virtualenv choose any version of python you want
+- Create a python virtualenv and choose any version of python you want
 
 `$ virtualenv venv --python=python3.6`
 
